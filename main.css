@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkslategray;
+}
+
+#title {
+    color: gold;
+}
+#app {
+    background-color: gainsboro;
+    width: 500px;
+    margin: 0 auto;
+    border: solid 1px gray;
+    padding: 20px;
+    border-radius: 10px;
+}
+#time{
+    text-align: center;
+    padding: 2px 0;
+}
+
+#time #value {
+    font-size: 48px;
+    font-weight: bolder;
+
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: solid 1px gray;
+    width: 300px;
+    border-radius: 5px;
+}
+
+button, input[type="submit"]{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.task {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.task .completed {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.done  {
+    display: inline-block;
+    margin-left: 5px;
+    background-color: green;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.start-button {
+    display: inline-block;
+    margin-left: 5px;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+footer {
+    position:absolute;
+    bottom:10px;
+}
